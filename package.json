@@ -1,0 +1,20 @@
+{
+  "name": "live",
+  "version": "0.0.1",
+  "description": "a simple esbuild live reloader",
+  "main": "./src/app.js",
+  "scripts": {
+    "live": "node live-reload.mjs",
+  },
+  "keywords": [
+    "esbuild live", 
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "author": "Ehsan Azari",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.17.12"
+ }
+}
